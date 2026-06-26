@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User profile</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <header>User profile</header>
+    <main>
+        <form class="profile-form">
+          <h2 class="profile-form-heading"> Create profile</h2>
+
+          <div class="profile-form-field">
+            <label for="name">Name</label>
+            <input
+              class="profile-form-input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="e.g. Alex Johnson"
+              required
+            >
+          </div>
+
+          <div class="profile-form-field">
+            <label for="email">Email</label>
+
+            <input
+              class="profile-form-input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="a.johnsonn@gmail.com"
+              required
+            >
+          </div>
+
+          <div class="profile-form-field">
+            <label for="skills">Skills</label>
+
+            <input
+              class="profile-form-input"
+              type="text"
+              id="skills"
+              name="skills"
+              placeholder="e.g. HTML, CSS, JavaScript"
+              required
+              >
+          </div>
+
+          <div class="profile-form-field">
+              <label for="about">About</label>
+
+              <input
+                class="profile-form-input"
+                type="text"
+                id="about"
+                name="about"
+                placeholder="Tell something about yourself..."
+                required
+              >
+          </div>
+          
+          <div class="profile-form-actions">
+            <button
+              class="profile-form-button profile-form-button-submit"
+              type="submit"
+            >
+              Send
+            </button>
+
+            <button
+              class="profile-form-button profile-form-button-reset"
+              type="reset"
+            >
+              Reset
+            </button>
+          </div>
+        </form>
+
+        <section class="profile-card">
+          <div class="profile-card-header">
+            <img
+              width="50"
+              height="50"
+              src="./assets/images/user-profile-image.png"
+              alt="Use profile"
+            >
+          
+            <h2 class="profile-card-heading">Alex Johnson</h2>
+            <p class="profile-card-email">a.johnsonn@gmail.com</p>
+          </div>
+          
+          <div>
+            <p class="profile-card-skills"><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+          
+            <p class="profile-card-about">
+              Frontend developer in training. Learning how to build modern web interfaces.
+            </p>
+          </div>
+         
+          <div class="profile-card-actions">
+            <a class="profile-card-link" href="mailto:a.johnsonn@gmail.com">Message</a>
+          </div>
+        </section>
+    </main>
+
+    <footer>©2026</footer>
+    
+  <script src="./app.js"></script>
+</body>
+</html>

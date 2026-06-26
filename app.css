@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  background-color: #EBEBEB;
+  font-family: "Gill Sans", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+footer, header {
+  height: 40px;
+  background-color: #fff;
+
+  text-align: center;
+  align-content: center;
+}
+
+main {
+  height: 100%;
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.profile-form {
+  background-color: #fff;
+  padding: 16px;
+  width: 250px;
+  border-radius: 10px;
+  min-height: 320px;
+}
+
+.profile-form-heading {
+  margin-top: 0;
+}
+
+.profile-form-field {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 16px;
+}
+
+.profile-form-input {
+  padding: 5px 7px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.profile-form-actions {
+  margin-top: 16px;
+}
+
+.profile-form-button {
+  background-color: #fff;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 3px;
+}
+
+.profile-form-button-submit {
+  background-color: #C4D9FF;
+}
+
+.profile-form-button-submit:hover {
+  background-color: #AECBFC;
+}
+
+.profile-form-button-submit:active {
+  background-color: #95BDFC;
+}
+
+.profile-form-button-reset {
+  background-color: #FFC4C4;
+}
+
+.profile-form-button-reset:hover {
+  background-color: #FCB6B6;
+}
+
+.profile-form-button-reset:active {
+  background-color: #FFA6A6;
+}
+
+.profile-card {
+  background-color: #fff;
+  width: 250px;
+  padding: 16px;
+  min-height: 320px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  position: relative;
+
+}
+
+.profile-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.profile-card-heading {
+  margin: 0;
+  margin-top: 16px;
+  color: #411B4F;
+}
+
+.profile-card-email {
+  margin: 0;
+  font-size: 12px;
+  color: #612978;
+}
+
+.profile-card-skills {
+  text-align: center;
+  font-size: 14px;
+  color: #612978;
+  margin-top: 20px;
+}
+
+.profile-card-about {
+  font-size: 12px;
+  text-align: center;
+  color: #612978;
+}
+
+.profile-card-actions {
+  width: 100%;
+}
+
+.profile-card-link {
+  display: block;
+  background-color: #fff;
+  color: #612978;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 10px;
+  border: 2px solid #612978;
+  font-weight: 600;
+  border-radius: 3px;
+
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+
+  transition: 0.5s;
+}
+
+.profile-card-link:hover {
+  background-color: #612978;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
